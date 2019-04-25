@@ -1,0 +1,18 @@
+Созтояние памяти hdfs:
+
+	configured capacity => 104.54GB (Общий размер дступной памяти на всех дисках)
+ 
+	present => 74.35 (общий объем памяти, доступной для хранения пользовательских файлов)
+ 
+	remaining => 57.29GB (сколько свободной памяти осталось)
+
+	used => 17.06GB (Фактически использумая память hdfs-ом, делим ка коэфициент 
+	репликации и получаем реальный размер данных)
+	
+replication blocks:
+	all => 210
+	blocks with corupt replicas => 0
+	missing blocks => 2
+	missing blocks (with replication factor 1) => 2
+	low redundancy blocks with highest priority to recover => 210
+	pending deletion blocks => 0
