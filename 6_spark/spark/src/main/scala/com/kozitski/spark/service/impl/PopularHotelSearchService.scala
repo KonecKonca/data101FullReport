@@ -63,4 +63,19 @@ object PopularHotelSearchService extends Serializable {
   val HOTEL_MARKET_INDEX = 20
   val COUNT_OF_INPUT_ROWS = 3
   val COUPLE_IDENTIFIER = 2
+
+
+
+
+
+    new
+
+
+  val spark = Unit
+
+  val loadedData = spark.read().format("csv").option("header", "true").option("mode", "DROPMALFORMED").load("path...")
+
+
+
+
 }
